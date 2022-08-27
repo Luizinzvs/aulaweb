@@ -1,19 +1,34 @@
-#titulo{
-    color: navy;
+#fundo-site{
+    background-color: black;
 }
 
-.elementos-black{
+#fundo-times{
+    background-color: red;
+}
+
+#titulo{
+    color: rgb(157, 221, 247);
+    text-align: center;
+}
+
+.li{
     color: gray;
 }
 
-.elementos-vermelhos{
+.elementos-color{
     color: red;
+    text-align: center;
 }
 
-#h4-cinza{
+#h4-color{
     color: gray;
 }
 
 #h1-gold{
     color: gold;
 }
+
+#h6-color{
+    color: white;
+}
+
