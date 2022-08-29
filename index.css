@@ -1,34 +1,50 @@
-#fundo-site{
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
     background-color: black;
 }
 
-#fundo-times{
-    background-color: red;
+img#hero{
+    width: 200px;
+    border-radius: 50%;
+    margin: 15px 0px 15px 0px;
 }
 
-#titulo{
-    color: rgb(157, 221, 247);
-    text-align: center;
-}
-
-.li{
+h1#hero{
     color: gray;
+    font-size: 50px;
+    font-family: 'Silkscreen', cursive;
 }
 
-.elementos-color{
-    color: red;
-    text-align: center;
+nav{
+    background-color: orange;
 }
 
-#h4-color{
-    color: gray;
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
 }
 
-#h1-gold{
-    color: gold;
+li a{
+    font-family: 'Silkscreen', cursive;
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+    width: 100%;
 }
 
-#h6-color{
-    color: white;
+li a:hover{
+    color: blue;
 }
 
+h1#hero:hover{
+    color: blue;
+}
