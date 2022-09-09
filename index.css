@@ -20,15 +20,16 @@ img#hero{
 h1#hero{
     color: gray;
     font-size: 50px;
-    font-family: 'Silkscreen', cursive;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
 }
 
 nav{
-    background-color: orangered; 
+    background-color: orangered;
     height: 50px;
 }
 
-ul{
+nav ul{
     display: flex;
     justify-content: space-evenly;
     list-style: none;
@@ -37,15 +38,15 @@ ul{
     height: 50px;
 }
 
-li a{
-    font-family: 'Silkscreen', cursive;
-    font-size: 30px;
+nav ul li a{
     text-decoration: none;
+    font-size: 30px;
     color: black;
     width: 100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-li a:hover{
+nav ul li a:hover{
     color: yellow;
 }
 
@@ -61,7 +62,27 @@ footer{
     background-color: black;
 }
 
-h5#color{
+h5#footer{
     color: white;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+section#conquistas{
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+section#conquistas div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: left;
+}
+
+section#conquistas div img{
+    width: 250px;
+    height: 250px;
+}
+
+
