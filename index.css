@@ -31,29 +31,39 @@ header section#section{
 }
 
 main{
-    align-items: center;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     flex-direction: column;
     width: 100%;
     height: 100%;
     background-color: #201849;
 }
- 
-main img#main{
-    width: 400px;
-    height: 400px;
+
+main section#texto{
+    display: flex;
+    color: white;
+    text-align: center;
 }
 
 main section#fotos{
+    flex-direction: column;
     display: flex;
     justify-content: space-evenly;
-    margin: 15px 0px 15px 0px;
 }
 
 main section#fotos img{
     width: 400px;
     height: 400px;
+}
+
+footer{
+    bottom: 0px;
+    width: 100%;
+    height: 35px;
+    align-items: center;
+    display: flex;
+    background-color: #713897;
+    justify-content: center;
 }
 
 
