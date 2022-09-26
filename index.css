@@ -39,22 +39,52 @@ main{
     background-color: #201849;
 }
 
-main section#texto{
-    display: flex;
-    color: white;
-    text-align: center;
-}
-
-main section#fotos{
-    flex-direction: column;
+main section#foto1{
+    align-items: center;
     display: flex;
     justify-content: space-evenly;
+    margin: 15px 0px 15px 0px;
 }
 
-main section#fotos img{
-    width: 400px;
-    height: 400px;
+main section img#foto1{
+    width: 350px;
+    height: 250px;
 }
+
+main section p#p1{
+    margin: 0px 10px 0px 10px;
+    color: white;
+    justify-content: center;
+}
+
+main section img#foto2{
+    width: 500px;
+    height: 250px;
+}
+
+main section#foto3{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 15px 0px 15px 0px;
+}
+
+main section img#foto3{
+    width: 322px;
+    height: 250px;
+}
+
+main section p#p2{
+    color: white;
+    margin: 0px 10px 0px 10px;
+    justify-content: center;
+}
+
+main section img#foto4{
+    height: 300px;
+}
+
+
 
 footer{
     bottom: 0px;
