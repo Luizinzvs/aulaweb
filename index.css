@@ -112,12 +112,22 @@ img#carreira{
 }
 
 img#oculos{
-    width: 380px;
+    width: 450px;
+    margin-top: 45px;
+    margin-bottom: 45px;
 }
 
 img#brasil{
     width: 450px;
-    margin-left: 28px;
+    margin-left: 40px;
+    margin-top: 45px;
+}
+
+img#estreia{
+    width: 450px;
+    height: 550px;
+    margin-top: 45px;
+    margin-bottom: 45px;
 }
 
 main section#skills{
