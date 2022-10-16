@@ -125,6 +125,7 @@ img#base{
 img#carreira{
     width: 450px;
     margin-left: 40px;
+    margin-top: 30px;
     
 }
 
@@ -145,6 +146,21 @@ img#estreia{
     height: 550px;
     margin-top: 45px;
     margin-bottom: 45px;
+}
+
+iframe#video{
+    margin-bottom: 40px;
+}
+
+img#lambreta{
+    width: 1000px;
+    margin-top: 40px;
+}
+
+img#crianca{
+    width: 500px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 img.fotos2{
@@ -173,6 +189,28 @@ main section#skills p{
     color: black;
 }
 
+main section#biografia{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 30px;
+    flex-direction: column;
+}
+
+main section#biografia p{
+    text-align: center;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-weight: 800;
+    color: black;
+}
+
+h1#biografia{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 
 footer{
     position: fixed;
@@ -185,11 +223,18 @@ footer{
     justify-content: center;
 }
 
+img#insta{
+    width: 30px;
+    margin-left: 8px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
 h5#footer{
     color: white;
 }
 
-@media only screen and (max-width: 1300px) {
+@media screen and (max-width: 1300px) {
 
     img#hero{
         width: 200px;
@@ -215,6 +260,7 @@ h5#footer{
     img#carreira{
         width: 450px;
         margin-left: 40px;
+        margin-top: 40px;
         
     }
     
@@ -244,11 +290,23 @@ h5#footer{
     iframe#video{
         width: 650px;
         height: 400px;
+        margin-bottom: 40px;
+    }
+
+    img#lambreta{
+        width: 900px;
+        margin-top: 40px;
+    }
+
+    img#crianca{
+        width: 500px;
+        margin-top: 40px;
+        margin-bottom: 40px;
     }
     
 }
 
-@media only screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
 
     img#hero{
         width: 150px;
@@ -274,6 +332,7 @@ h5#footer{
     img#carreira{
         width: 400px;
         margin-left: 35px;
+        margin-top: 35px;
         
     }
     
@@ -303,11 +362,23 @@ h5#footer{
     iframe#video{
         width: 550px;
         height: 300px;
+        margin-bottom: 35px;
+    }
+
+    img#lambreta{
+        width: 700px;
+        margin-top: 35px;
+    }
+
+    img#crianca{
+        width: 400px;
+        margin-top: 35px;
+        margin-bottom: 35px;
     }
    
 }
 
-@media only screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
 
     img#hero{
         width: 130px;
@@ -333,6 +404,7 @@ h5#footer{
     img#carreira{
         width: 380px;
         margin-left: 20px;
+        margin-top: 20px;
         
     }
     
@@ -362,10 +434,22 @@ h5#footer{
     iframe#video{
         width: 450px;
         height: 300px;
+        margin-bottom: 30px;
+    }
+
+    img#lambreta{
+        width: 480px;
+        margin-top: 30px;
+    }
+
+    img#crianca{
+        width: 350px;
+        margin-top: 30px;
+        margin-bottom: 30px;
     }
 }
 
-@media only screen and (max-width: 480px) {
+@media screen and (max-width: 480px) {
 
     img#hero{
         width: 80px;
@@ -390,8 +474,7 @@ h5#footer{
     
     img#carreira{
         width: 280px;
-    
-        
+        margin-top: 20px;
     }
     
     img#oculos{
@@ -420,5 +503,17 @@ h5#footer{
     iframe#video{
         width: 350px;
         height: 300px;
+        margin-bottom: 20px;
+    }
+
+    img#lambreta{
+        width: 350px;
+        margin-top: 20px;
+    }
+
+    img#crianca{
+        width: 300px;
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
 }
