@@ -72,6 +72,7 @@ nav ul li a:hover{
     color: orange;
 }
 
+
 main{
     width: 100%;
     height: 100%;
@@ -89,6 +90,18 @@ main section#carreira{
 h1#carreira{
     margin-top: 8px;
     margin-bottom: 8px;
+}
+
+h1{
+    font-family: 'Bree Serif', serif;
+    
+}
+
+p{
+font-weight: bolder;
+font-size: 18px;
+font-family: 'Bree Serif', serif;
+
 }
 
 main section#carreira p{
@@ -130,6 +143,10 @@ img#estreia{
     margin-bottom: 45px;
 }
 
+img.fotos2{
+    width: 450px;
+}
+
 main section#skills{
     justify-content: space-between;
     display: flex;
@@ -168,3 +185,152 @@ h5#footer{
     color: white;
 }
 
+@media only screen and (max-width: 1300px) {
+
+    img#carreira{
+        width: 450px;
+        margin-left: 40px;
+        
+    }
+    
+    img#oculos{
+        width: 450px;
+        margin-top: 45px;
+        margin-bottom: 45px;
+    }
+    
+    img#brasil{
+        width: 450px;
+        margin-left: 40px;
+        margin-top: 45px;
+    }
+    
+    img#estreia{
+        width: 450px;
+        height: 550px;
+        margin-top: 45px;
+        margin-bottom: 45px;
+    }
+
+    p{
+        font-size: 18px;
+    }
+
+    iframe#video{
+        width: 650px;
+        height: 400px;
+    }
+    
+}
+
+@media only screen and (max-width: 1024px) {
+
+    img#carreira{
+        width: 400px;
+        margin-left: 35px;
+        
+    }
+    
+    img#oculos{
+        width: 400px;
+        margin-top: 35px;
+        margin-bottom: 35px;
+    }
+    
+    img#brasil{
+        width: 400px;
+        margin-left: 30px;
+        margin-top: 35px;
+    }
+    
+    img#estreia{
+        width: 400px;
+        height: 370px;
+        margin-top: 35px;
+        margin-bottom: 35px;
+    }
+
+    p{
+        font-size: 15px;
+    }
+
+    iframe#video{
+        width: 550px;
+        height: 300px;
+    }
+   
+}
+
+@media only screen and (max-width: 768px) {
+
+    img#carreira{
+        width: 380px;
+        margin-left: 20px;
+        
+    }
+    
+    img#oculos{
+        width: 380px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    img#brasil{
+        width: 380px;
+        margin-left: 20px;
+        margin-top: 25px;
+    }
+    
+    img#estreia{
+        width: 380px;
+        height: 350px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    p{
+        font-size: 12px;
+    }
+
+    iframe#video{
+        width: 450px;
+        height: 300px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+
+    img#carreira{
+        width: 280px;
+    
+        
+    }
+    
+    img#oculos{
+        width: 280px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    img#brasil{
+        width: 280px;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    
+    img#estreia{
+        width: 280px;
+        height: 300px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    p{
+        font-size: 10px;
+    }
+
+    iframe#video{
+        width: 350px;
+        height: 300px;
+    }
+}
