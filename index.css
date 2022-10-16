@@ -118,6 +118,10 @@ main section#fotos{
     margin-right: 20px;
 }
 
+img#base{
+    width: 450px;
+}
+
 img#carreira{
     width: 450px;
     margin-left: 40px;
@@ -187,6 +191,27 @@ h5#footer{
 
 @media only screen and (max-width: 1300px) {
 
+    img#hero{
+        width: 200px;
+        border-radius: 50%;
+        margin: 15px 0px 15px 0px;
+    }
+    
+    h1#hero{
+        color: white;
+        font-size: 50px;
+    }
+    
+    h4#hero{
+        color: white;
+        font-size: 16px;
+    }
+    
+    img#base{
+        width: 450px;
+        margin-left: 40px;
+    }
+    
     img#carreira{
         width: 450px;
         margin-left: 40px;
@@ -224,6 +249,27 @@ h5#footer{
 }
 
 @media only screen and (max-width: 1024px) {
+
+    img#hero{
+        width: 150px;
+        border-radius: 50%;
+        margin: 10px 0px 10px 0px;
+    }
+    
+    h1#hero{
+        color: white;
+        font-size: 40px;
+    }
+    
+    h4#hero{
+        color: white;
+        font-size: 12px;
+    }
+    
+    img#base{
+        width: 400px;
+        margin-left: 35px;
+    }
 
     img#carreira{
         width: 400px;
@@ -263,6 +309,27 @@ h5#footer{
 
 @media only screen and (max-width: 768px) {
 
+    img#hero{
+        width: 130px;
+        border-radius: 50%;
+        margin: 7px 0px 7px 0px;
+    }
+    
+    h1#hero{
+        color: white;
+        font-size: 35px;
+    }
+    
+    h4#hero{
+        color: white;
+        font-size: 10px;
+    }
+    
+    img#base{
+        width: 380px;
+        margin-left: 20px;
+    }
+    
     img#carreira{
         width: 380px;
         margin-left: 20px;
@@ -300,6 +367,27 @@ h5#footer{
 
 @media only screen and (max-width: 480px) {
 
+    img#hero{
+        width: 80px;
+        border-radius: 50%;
+        margin:  5px 0px 5px 0px;
+    }
+    
+    h1#hero{
+        color: white;
+        font-size: 25px;
+    }
+    
+    h4#hero{
+        color: white;
+        font-size: 8px;
+    }
+    
+    img#base{
+        width: 280px;
+        margin-left: 20px;
+    }
+    
     img#carreira{
         width: 280px;
     
